@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma première page</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <h1>On commence</h1>
+  <p>Ceci est mon premier test</p> 
+   <!--Ceci est mon commentaire-->
+  <p> coucou Nej <br/>ceci est ma premiere fois</p> 
+  <a  href="https://yanacom.fr" target="blank">Allez sur mon site</a>   
+  <h2 class="premierep">on continue</h2>  
+  <p>ceci <em>est</em> <mark>autre</mark> <strong>paragraphe</strong></p>
+  <p>Ceci est en ancre <a href="#defwiki">cliquer sur Définition wiki</a></p>
+
+  <ul>
+      <li id="deuxiemep">Fraise</li>
+      <li>Framboise</li>
+      <li>Abricot</li>
+
+  </ul>
+
+  <ol>
+      <li>Introduction</li>
+      <li>Thèse défendue</li>
+      <li>Conclusion</li>
+
+  </ol>
+
+  <dl>
+
+    <dt>HTML</dt>
+    <dd>HTML est l'abréviation de Hyptertxt markup language</dd>
+  </dl>
+
+  <ol>
+      <li>natation
+          <ul>
+              <li>maillot</li>
+              <li>bonnet</li>
+              <li>lunette</li>
+          </ul>
+      </li>
+      <li>véLo</li>
+      <li>Course à pied</li>
+
+  </ol>
+  <p>voici un lien vers ma <a href="page2.html">page 2</a></p>
+  <p>voici un lien vers ma <a href="Liens_sous/page3.html">page 3</a></p>
+  <p>voici un lien vers ma <a href="../page4.html">page 4</a></p>
+
+  <h3 id="defwiki">Wiki</h3>
+  <p>Jusqu’à sa version 4.01 comprise, HTML est formellement décrit comme une application du SGML. 
+      Cependant, les spécifications successives admettent, par différents biais, que les agents utilisateurs ne sont pas, en pratique, des analyseurs SGML conformes26. 
+      Les navigateurs Web n’ont jamais été capables de déchiffrer l’ensemble des variations de syntaxe permises par SGML27 ; 
+      en revanche ils sont généralement capables de rattraper automatiquement de nombreuses erreurs de syntaxe, suivant la première partie de la « loi de Postel » : 
+      « Soyez libéral dans ce que vous acceptez, et conservateur dans ce que vous envoyez » (RFC 79128). 
+      De fait, les développeurs de pages Web et de navigateurs Web ont toujours pris beaucoup de liberté avec les règles syntaxiques de SGML. 
+      Enfin, la document type definition (DTD) de HTML, soit la description technique formelle de HTML, n’a été écrite par Dan Connolly que quelques années après l’introduction de HTML4. 
+    </p>
+    <p>
+        Un document HTML valide est un document qui respecte la syntaxe SGML, n’utilise que des éléments et attributs standardisés, et respecte l’imbrication des éléments décrite par le standard. Il ne manque qu’une déclaration de type de document à l’exemple précédent pour qu’il soit un document HTML 2.0 valide30.
+
+Un document valide n’est cependant pas suffisant pour être conforme à la spécification HTML visée. En effet, outre l’exigence de validité, un document conforme est soumis à d’autres contraintes qui ne sont pas exprimées par la définition de type de document (DTD), mais qui le sont par la spécification elle-même. C’est notamment le cas du type de contenu de certains attributs, comme celui de l’attribut datetime : pour être conforme à HTML 4.01, celui-ci doit être lui-même conforme à un sous-ensemble de la norme ISO 860131. Un parseur strictement SGML tel que le validateur HTML du W3C ne peut donc pas garantir la conformité d’un document HTML.
+Structure des documents HTML
+
+Dans les premières années, les documents HTML étaient souvent considérés comme des structures plates, et les balises comme des commandes de style32. Ainsi la balise <p> était considérée comme un saut de ligne, et la balise </p> était ignorée. Ou encore lorsque JavaScript 1.0 est apparu, il ne donnait accès qu’aux liens et formulaires du document à travers les tables document.forms et document.links.
+
+Avec l’introduction des Cascading Style Sheets et du Document Object Model, il a fallu considérer que les documents HTML ont une véritable structure en arbre, avec un élément racine contenant tous les autres éléments33. Les balises ouvrantes et fermantes de ces éléments restent d’ailleurs optionnelles. Cependant, aujourd’hui, on a tendance à baliser chaque élément34 et à indiquer la DTD. À l'exception de l'élément à la racine, chaque élément a exactement un élément parent direct ; cet « arbre du document » est notamment utilisé par la structure de formatage qui en est dérivée pour l’application des feuilles de style en cascade où chaque élément peut avoir un fond, un bord et une marge propres. 
+    </p>
+    <p>Envoyez moi un <a href="mailto:maude@gmail.com">mail</a></p>
+    <p> telecharger mon <a href="Businesscard.zip">fichier</a></p>
+</body>
+</html>
